@@ -5894,7 +5894,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.3940217, y: 1}
+    m_SensorSize: {x: 1.3072519, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -6921,7 +6921,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: cba4e32ef067c5146b91f98b3e7a1c8f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.12
+      value: 14.518
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: cba4e32ef067c5146b91f98b3e7a1c8f,
         type: 3}
@@ -6931,7 +6931,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: cba4e32ef067c5146b91f98b3e7a1c8f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -17.59
+      value: -19.368
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: cba4e32ef067c5146b91f98b3e7a1c8f,
         type: 3}
@@ -6998,6 +6998,31 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 4f5e2d9278069c542bbfc136952e9d82, type: 2}
+    - target: {fileID: -157825318150610632, guid: cba4e32ef067c5146b91f98b3e7a1c8f,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -157825318150610632, guid: cba4e32ef067c5146b91f98b3e7a1c8f,
+        type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6985287465494735213, guid: cba4e32ef067c5146b91f98b3e7a1c8f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -36.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6985287465494735213, guid: cba4e32ef067c5146b91f98b3e7a1c8f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 36.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 9101430577481724397, guid: cba4e32ef067c5146b91f98b3e7a1c8f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cba4e32ef067c5146b91f98b3e7a1c8f, type: 3}
 --- !u!1 &1529685461
@@ -8000,6 +8025,7 @@ GameObject:
   - component: {fileID: 1719899685}
   - component: {fileID: 1719899689}
   - component: {fileID: 1719899688}
+  - component: {fileID: 1719899690}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -8128,7 +8154,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -8137,6 +8163,23 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!114 &1719899690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719899684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 1defcedd21378e34a836d9917a40149d, type: 2}
 --- !u!1 &1758714855
 GameObject:
   m_ObjectHideFlags: 0
